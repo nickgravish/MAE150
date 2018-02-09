@@ -8,7 +8,7 @@ sections 3-5 you will use the solidworks parts files in
 “laser\_cams.zip”.
 
 ![A mechanical laser show as in
-[here](https://www.thingiverse.com/thing:2383299)](laser.png){width=".7\linewidth"}
+[here](https://www.thingiverse.com/thing:2383299)](laser.png)
 
 \
 ## Part 1: Path tracing
