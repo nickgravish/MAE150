@@ -1,4 +1,4 @@
-**Mid-quarter design challenge – A “real” laser-cam**
+# Mid-quarter design challenge – A “real” laser-cam
 
 TODO: Snapshot of assembly with parts listed.
 
@@ -13,7 +13,7 @@ sections 3-5 you will use the solidworks parts files in
 [here](https://www.thingiverse.com/thing:2383299)](laser.png){width=".7\linewidth"}
 
 \
-**Part 1: Path tracing**
+## Part 1: Path tracing
 
 In this part you will generate a $(x_i, y_i)$ contour from hand selected
 keypoints.
@@ -34,7 +34,7 @@ keypoints.
     trajectory.](sample_trace.png){width=".7\linewidth"}
 
 \
-**Part 2: Cam profile generation (matlab)**
+## Part 2: Cam profile generation (matlab)
 
 Now we have to turn our desired $(x_i, y_i)$ coordinates into the
 profiles for the left and right cams.
@@ -74,7 +74,7 @@ profiles for the left and right cams.
     data.]{}
 
 \
-**Part 3: Cam profile generation (solidworks)**
+## Part 3: Cam profile generation (solidworks)
 
 We now need to input our matlab defined cam shapes into solidworks.
 
@@ -101,7 +101,7 @@ We now need to input our matlab defined cam shapes into solidworks.
 8.  [ Provide a snapshot of your cams in the assembly.]{}
 
 \
-**Part 4: Motion study (solidworks)**
+## Part 4: Motion study (solidworks)
 
 Lastly, we want to make a cad representation of our follower and use the
 [*cam-follower*]{} mate constraint in solidworks to generate a motion
@@ -147,7 +147,7 @@ study of our cam assembly.
     ![Snapshot of Prof. G’s motion
     study.](Capture.PNG){width=".55\linewidth"}
 
-**Part 5: 3D print your cams (extra credit!)**
+## Part 5: 3D print your cams (extra credit!)
 
 For 3 points extra credit 3D print your left and right cams and bring
 them to class on the day homework is due. You are welcome to print the
