@@ -1,7 +1,5 @@
 # Mid-quarter design challenge – A “real” laser-cam
 
-TODO: Snapshot of assembly with parts listed.
-
 In this homework you will use the skills you have developed so far to
 design a two-cam mechanism that will trace a laser along a shape of your
 choice. Items to be turned in in class are noted in [ red]{}. For
