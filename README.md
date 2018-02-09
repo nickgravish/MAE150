@@ -7,9 +7,9 @@ sections 1-2 you will find “HW\_4\_boiler\_plate.m” very useful. For
 sections 3-5 you will use the solidworks parts files in
 “laser\_cams.zip”.
 
-![A mechanical laser show as in](laser.png)
+A mechanical laser show as in [here](https://www.thingiverse.com/thing:2383299)
+![alt](laser.png)
 
-\
 ## Part 1: Path tracing
 
 In this part you will generate a $(x_i, y_i)$ contour from hand selected
