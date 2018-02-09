@@ -2,14 +2,16 @@
 
 In this homework you will use the skills you have developed so far to
 design a two-cam mechanism that will trace a laser along a shape of your
-choice. Items to be turned in in class are noted in [ red]
-}. For
-sections 1-2 you will find “HW\_4\_boiler\_plate.m” very useful. For
-sections 3-5 you will use the solidworks parts files in
-“laser\_cams.zip”.
+choice. For sections 1-2 you will find “HW_4_boiler_plate.m” very useful. For
+sections 3-5 you will use the solidworks parts files in “laser_cams.zip”.
 
-A mechanical laser show as in [here](https://www.thingiverse.com/thing:2383299)
+This project is directly inspired by the mechanical laser show project on thingverse [here](https://www.thingiverse.com/thing:2383299)
 ![alt](laser.png)
+
+
+## The goal of the assignment 
+
+
 
 ## Part 1: Path tracing
 
