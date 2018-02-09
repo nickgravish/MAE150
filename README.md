@@ -2,7 +2,8 @@
 
 In this homework you will use the skills you have developed so far to
 design a two-cam mechanism that will trace a laser along a shape of your
-choice. Items to be turned in in class are noted in [ red]{}. For
+choice. Items to be turned in in class are noted in [ red]
+}. For
 sections 1-2 you will find “HW\_4\_boiler\_plate.m” very useful. For
 sections 3-5 you will use the solidworks parts files in
 “laser\_cams.zip”.
@@ -22,14 +23,13 @@ keypoints.
     make sure to keep them closely spaced.
 
 2.  Save this list of $x, y$ points to a comma separated text file
-    ([*hint: use dlmwrite*]{}).
+    ([*hint: use dlmwrite*]).
 
 3.  [ Provide a plot of $x_i$ and $y_i$ versus $i$. Use the $\circ$
-    symbol for these coordinates.]{}
+    symbol for these coordinates.]
 
     ![Sample of Prof. G’s
-    trajectory.](sample_trace.png){width=".7\linewidth"}
-
+    trajectory.](sample_trace.png)
 \
 ## Part 2: Cam profile generation (matlab)
 
@@ -37,19 +37,20 @@ Now we have to turn our desired $(x_i, y_i)$ coordinates into the
 profiles for the left and right cams.
 
 1.  [ Write out the equation for the $x$ and $y$ coordinates of the
-    vertex laser center from the triangle diagram below. ]{}
+    vertex laser center from the triangle diagram below. ]
+    }
 
     ![image](triangle.png){width=".55\linewidth"}
 
 2.  [ Solve these equations for the $A_i$, $\alpha_i$, $B_i$, and
     $\beta_i$ which are the instantaneous lengths and angles of the
     triangle that define the laser in the desired $(x_i, y_i)$ position.
-    ]{}
+    ]
 
 3.  [ Write out the kinematic relationship between the triangle angles
     $\alpha_i$, $\beta_i$, and the angle of the radius in the cam
     coordinate system $\theta_i^L$, and $\theta_i^R$ for the left and
-    right cams respectively.]{}
+    right cams respectively.]
 
 4.  Write a matlab function to return the polar coordinates of the left
     and right cam profile ($A_i$, $\theta_i^L$) and ($B_i$,
@@ -65,10 +66,10 @@ profiles for the left and right cams.
 
 6.  Save the $(x_i^{left}, y_i^{left})$ and $(x_i^{right}, y_i^{right})$
     points to individual comma-separated text files called
-    [*cam\_left.txt*]{} and [*cam\_right.txt*]{}.
+    [*cam\_left.txt*]{} and [*cam\_right.txt*].
 
 7.  [ Turn in a plot of your cam profiles generated from hand selected
-    data.]{}
+    data.]
 
 \
 ## Part 3: Cam profile generation (solidworks)
@@ -81,12 +82,12 @@ We now need to input our matlab defined cam shapes into solidworks.
 2.  We now need to generate the cam profile. Open the left cam
     solidworks file.
 
-3.  In the top menu, select [*Insert* ]{} $\rightarrow$ [*Curves*]{}
-    $\rightarrow$ [*Curve through XYZ points*]{}.
+3.  In the top menu, select [*Insert* ] $\rightarrow$ [*Curves*]
+    $\rightarrow$ [*Curve through XYZ points*].
 
 4.  Edit the cam sketch curve to follow the points you generated from
     matlab. ([*You can use convert entities to turn the curve into a
-    sketch line that can be extruded.*]{})
+    sketch line that can be extruded.*])
 
 5.  Rebuild the cam once you have generated the new cam profile.
 
@@ -95,7 +96,7 @@ We now need to input our matlab defined cam shapes into solidworks.
 7.  Assemble the solidworks parts as shown in the diagram below. Use
     mating constraints to align the parts.
 
-8.  [ Provide a snapshot of your cams in the assembly.]{}
+8.  [ Provide a snapshot of your cams in the assembly.]
 
 \
 ## Part 4: Motion study (solidworks)
@@ -113,7 +114,7 @@ study of our cam assembly.
     2.  Add a cam constraint with the round face of the cylinder as the
         follower, and the profile face of the left cam as the cam.
         ([*Hint: the cam constraint is under the mechanical dropdown
-        selection in the mate sidebar*]{}).
+        selection in the mate sidebar*]).
 
     3.  Enforce a second cam constraint between the cylinder and the
         right cam.
@@ -136,13 +137,13 @@ study of our cam assembly.
         face and make the point trace the center of mass of this face.
 
 3.  [ Turn in a snapshot of the final motion profile with your traced
-    curve. ]{}
+    curve. ]
 
 4.  Zip your parts and assembly files and turn them into the lab email
     (mae150winter2018@gmail.com) with the subject “HW4 - Your Name”.
 
     ![Snapshot of Prof. G’s motion
-    study.](Capture.PNG){width=".55\linewidth"}
+    study.](Capture.PNG)
 
 ## Part 5: 3D print your cams (extra credit!)
 
