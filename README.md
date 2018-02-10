@@ -149,7 +149,7 @@ study of our cam assembly.
 
 ## Part 5: 3D print your cams (extra credit!)
 
-For 3 points extra credit 3D print your left and right cams and bring
+For extra credit 3D print your left and right cams and bring
 them to class on the day homework is due. You are welcome to print the
 full assembly for your own use but we only need the cams for the extra
 credit!
